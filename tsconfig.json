@@ -1,0 +1,9 @@
+{
+  "extends": "@lough/tsconfig/typescript",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "es",
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/index.ts"]
+}

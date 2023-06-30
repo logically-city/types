@@ -1,0 +1,31 @@
+{
+  "name": "@logically/types",
+  "version": "0.0.0",
+  "description": "JavaScript Logically Type.",
+  "keywords": [
+    "typescript"
+  ],
+  "author": {
+    "name": "City",
+    "email": "city@nanzc.com"
+  },
+  "homepage": "https://github.com/lough-city/lough-create#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lough-city/lough-create.git"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "types": "es/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@lough/tsconfig": "^0.0.5",
+    "typescript": "^5.1.6"
+  }
+}
