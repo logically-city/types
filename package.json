@@ -3,16 +3,18 @@
   "version": "0.0.0",
   "description": "JavaScript Logically Type.",
   "keywords": [
-    "typescript"
+    "typescript",
+    "logically",
+    "types"
   ],
   "author": {
     "name": "City",
     "email": "city@nanzc.com"
   },
-  "homepage": "https://github.com/lough-city/lough-create#readme",
+  "homepage": "https://github.com/logically-city/types#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lough-city/lough-create.git"
+    "url": "https://github.com/logically-city/types.git"
   },
   "files": [
     "dist",
@@ -27,5 +29,9 @@
   "devDependencies": {
     "@lough/tsconfig": "^0.0.5",
     "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
